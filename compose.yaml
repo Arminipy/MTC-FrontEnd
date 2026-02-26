@@ -1,0 +1,10 @@
+name: mobile-trade-center-web
+
+services:
+  client:
+    image: mobile-trade-center-web
+    build:
+      context: .
+    restart: always
+    ports:
+      - 127.0.0.1:8080:80
